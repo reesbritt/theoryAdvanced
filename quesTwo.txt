@@ -1,0 +1,16 @@
+g :: c -> Either c Int
+f:: Either Bool a -> b
+
+x type -> a
+
+
+x :: Num a => ( (Either Bool a - > b) -> (c -> Either c Int) -> t )
+	f			g
+
+x f :: Num a => ( (c -> Either c Int) -> t)
+
+x f g :: Num a => t
+
+h = \x -> t
+h = Num a => (( (Either Bool a - > b) -> (c -> Either c Int) -> t ) -> t)
+	
